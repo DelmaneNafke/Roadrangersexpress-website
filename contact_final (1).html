@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Road Rangers Express</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1a2a47;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1em;
+    }
+    main {
+      padding: 40px 20px;
+    }
+    section {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      font-size: 2em;
+      color: #1a2a47;
+      margin-bottom: 10px;
+    }
+    .contact-info p {
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px;
+    }
+    input, textarea {
+      padding: 12px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1em;
+    }
+    button {
+      background-color: #1a2a47;
+      color: white;
+      padding: 12px;
+      font-size: 1em;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #324b75;
+    }
+    footer {
+      background-color: #1a2a47;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      margin-top: 40px;
+    }
+    .note {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: -15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Road Rangers Express</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact Us</h2>
+      <p>Need a delivery quote? Have a question? Reach out anytime!</p>
+      <div class="contact-info">
+        <p><strong>Business Name:</strong> Road Rangers Express</p>
+        <p><strong>Owner:</strong> Delmane Nafke</p>
+        <p><strong>Phone:</strong> 403-609-9033</p>
+        <p><strong>Email:</strong> <a href="mailto:roadrangersexpress@gmail.com">roadrangersexpress@gmail.com</a></p>
+        <p><strong>Admin Contact:</strong> Gina Mohammed – <a href="mailto:ginatovi1418@gmail.com">ginatovi1418@gmail.com</a></p>
+        <p><strong>Location:</strong> Edmonton, Alberta</p>
+      </div>
+
+      <h3 style="margin-top: 40px;">Send Us a Message</h3>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+        <p class="note">(This form is for display only — we’ll connect it soon!)</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Road Rangers Express</p>
+  </footer>
+</body>
+</html>
